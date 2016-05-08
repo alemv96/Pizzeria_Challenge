@@ -2,13 +2,6 @@ import java.util.Scanner;
 public class Pizzeria {
 
   public static void main (String[] args){
-      /*Scanner input = new Scanner(System.in);
-      System.out.println("introduzca el ancho de la bandeja");
-      float height = input.nextFloat();
-      System.out.println("introduzca el largo de la bandeja");
-      float large = input.nextFloat();
-      System.out.println("introduzca el precio de la pizza");
-      float price = input.nextInt();*/
       Square_Slice cuadrado = new Square_Slice("Cuadrado" ,3);
       Triangle_Slice triangulo = new Triangle_Slice("Triangulo" ,4 ,5);
       Circle_Slice circulo = new Circle_Slice ("Circulo" ,9);
